@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Soli's Portfolio</title>
+  <link rel="stylesheet" href="portfolio.css" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <a class="active" href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#github">GitHub</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="spacer"></div>
+
+  <!-- HOME -->
+  <section id="home">
+    <video autoplay muted loop id="typing-video">
+      <source src="image/2795167-uhd_3840_2160_25fps.mp4" type="video/mp4">
+    </video>
+    <div class="video-text">
+      <h1>Soli's Portfolio</h1>
+      <p><q>The computer programmer is a creator of universes for which he alone is the lawgiver.</q><br>- Joseph Weizenbaum</p>
+      <p>My name is Soli. Welcome to my portfolio website. Here, I share my background and experience.</p>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="row">
+    <div class="column column-image">
+      <img src="image/pexels-karolina-grabowska-8092315.jpg" alt="About Me">
+    </div>
+    <div class="column column-text">
+      <h2>About Me</h2>
+      <p>
+        I am a software developer who loves coding! I graduated from
+        <a href="https://www.learncodinganywhere.com" target="_blank">The Tech Academy</a>.
+        I am a full-stack developer and would love to collaborate with you!
+      </p>
+    </div>
+  </section>
+
+  <!-- GITHUB -->
+  <section id="github" class="row">
+    <div class="column column-text">
+      <h2>GitHub</h2>
+      <p>View my coding projects on GitHub:</p>
+      <p class="center">
+        <a href="https://github.com/solicyrus" target="_blank" class="github-inline">
+          MY GITHUB
+          <img src="image/Github-Logo-PNG-Pic.png" alt="GitHub Logo" class="github-logo">
+        </a>
+      </p>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="row">
+    <div class="column column-image tall-column">
+      <img src="image/pexels-olly-789822.jpg" alt="Contact Image">
+    </div>
+    <div class="column column-text tall-column">
+      <h2>Contact</h2>
+      <form>
+        <label>Email:</label>
+        <input type="text" id="email" placeholder="Enter your email">
+        <label>Message:</label>
+        <input type="text" id="message" placeholder="Write your message">
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; Prosper Consulting Inc., <a href="https://www.learncodinganywhere.com/" target="_blank">The Tech Academy</a></p>
+  </footer>
+
+  <script src="portfolio.js"></script>
+</body>
+</html>
